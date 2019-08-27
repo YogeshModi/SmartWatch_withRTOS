@@ -29,13 +29,13 @@ Currently I've only one sector to store the step count so that total number of s
 
 ## Project structure
 src folder contains all the source files and inc contains all the header files.
-- main.c: Application Layer
-- BSP.c: Board support package for MK-2 booster pack from TI
-- OS.c: RTOS with only necessary and sufficient required for this project.
-- GPIO.c: GPIO devvice driver
-- UART0.c: UART0 device driver
-- UART1.c: UART1 device driver
-- eDisk.c: Memory managment driver
+- **main.c:** Application Layer
+- **BSP.c:** Board support package for MK-2 booster pack from TI
+- **OS.c:** RTOS with only necessary and sufficient required for this project.
+- **GPIO.c:** GPIO devvice driver
+- **UART0.c:** UART0 device driver
+- **UART1.c:** UART1 device driver
+- **eDisk.c:** Memory managment driver
 - eFile.c: File managment driver
 
 
